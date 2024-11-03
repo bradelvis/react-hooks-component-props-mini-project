@@ -1,14 +1,12 @@
-import React from "react";
+import React from 'react';
 import Header from './Header';
 import About from './About';
 import ArticleList from './ArticleList';
-import blogData from "../data/blog";
-
-console.log(blogData);
+import blogData from '../data/blog'; // Adjust the path if necessary
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header name="My Awesome Blog" />
       <About 
         image="https://via.placeholder.com/215" 
